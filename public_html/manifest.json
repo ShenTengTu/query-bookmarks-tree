@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "query-bookmarks-tree sample",
+    "version": "0.1",
+    "description": "query-bookmarks-tree module sample",
+    "author": "Shen-Teng Tu",
+    "permissions": ["bookmarks", "chrome://favicon/*"],
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "browser_action": {
+        "default_title": "query-bookmarks-tree sample",
+        "default_icon": {
+            "38": "img/icon38-default.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "short_name": "querybookmarkstree-sample",
+    "version_name": "0.1",
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}
